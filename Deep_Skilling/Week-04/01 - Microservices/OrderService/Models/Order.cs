@@ -1,0 +1,14 @@
+// Deep Skilling - Cognizant Practice
+// Author: thrills154
+// Module: Models
+
+namespace OrderService.Models;
+public class Order
+{
+    public int Id { get; set; }
+    public string ProductName { get; set; }
+    public int Quantity { get; set; }
+    public decimal TotalPrice { get; set; }
+    public string Status { get; set; }
+    public DateTime OrderDate { get; set; }
+}

@@ -1,4 +1,8 @@
-﻿using System;
+// Deep Skilling - Cognizant Practice
+// Author: thrills154
+// Module: Exercise-02-Searching
+
+using System;
 
 // =========================================
 // Product Class
@@ -76,11 +80,11 @@ class Program
         // Sorted array for Binary Search
         Product[] products =
         {
-            new Product(101, "Laptop", "Electronics"),
-            new Product(102, "Mobile", "Electronics"),
+            new Product(101, "Smartphone", "Mobile Devices"),
+            new Product(102, "Mobile", "Mobile Devices"),
             new Product(103, "Shoes", "Fashion"),
-            new Product(104, "Watch", "Accessories"),
-            new Product(105, "Headphones", "Electronics")
+            new Product(104, "Watch", "Wearables"),
+            new Product(105, "Headphones", "Mobile Devices")
         };
 
         Console.Write("Enter Product ID to search: ");

@@ -1,3 +1,7 @@
+// Deep Skilling - Cognizant Practice
+// Author: thrills154
+// Module: SingletonPatternExample
+
 using System;
 
 class Logger
